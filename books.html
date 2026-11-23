@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Books | Book Haven</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h2 class="logo"><i class="fa fa-book-open"></i> Book Haven</h2>
+            <ul>
+                <li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="books.html" class="active"><i class="fa fa-book"></i> Books</a></li>
+                <li><a href="about.html"><i class="fa fa-user"></i> About Us</a></li>
+                <li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="books-hero">
+        <p>EXPLORE, READ AND DISCOVER</p>
+        <h1>Our Book Collection</h1>
+        <span>Find your next favorite story among our collection of books.</span>
+    </section>
+    <section class="books-section">
+        <div class="section-heading">
+            <p>HANDPICKED FOR BOOK LOVERS</p>
+            <h2>Discover Our Books</h2>
+            <span>From timeless classics to modern favorites.</span>
+        </div>
+        <div class="genre-filters">
+    <button class="filter-btn active" data-filter="all">All Books</button>
+    <button class="filter-btn" data-filter="romance">Romance</button>
+    <button class="filter-btn" data-filter="mystery">Mystery</button>
+    <button class="filter-btn" data-filter="fantasy">Fantasy</button>
+    <button class="filter-btn" data-filter="science">Science</button>
+    <button class="filter-btn" data-filter="fiction">Fiction</button>
+    <button class="filter-btn" data-filter="biography">Biography</button>
+</div>
+        <div class="books-grid">
+            <div id="great-gatsby" class="collection-card" data-genres="fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780743273565-L.jpg" alt="The Great Gatsby book cover">
+                <h3>The Great Gatsby</h3>
+                <p class="book-author">F. Scott Fitzgerald</p>
+                <p>A timeless story of wealth, love, ambition, and the American Dream.</p>
+            </div>
+            <div id="pride-prejudice" class="collection-card" data-genres="romance,fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780141439518-L.jpg" alt="Pride and Prejudice book cover">
+                <h3>Pride and Prejudice</h3>
+                <p class="book-author">Jane Austen</p>
+                <p>A classic romance exploring love, family, pride, and first impressions.</p>
+            </div>
+            <div id="the-alchemist" class="collection-card" data-genres="fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780061122415-L.jpg" alt="The Alchemist book cover">
+                <h3>The Alchemist</h3>
+                <p class="book-author">Paulo Coelho</p>
+                <p>An inspiring journey about following dreams and discovering one's purpose.</p>
+            </div>
+            <div id="1984" class="collection-card" data-genres="fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780451524935-L.jpg" alt="1984 book cover">
+                <h3>1984</h3>
+                <p class="book-author">George Orwell</p>
+                <p>A powerful dystopian novel about surveillance, freedom, and control.</p>
+            </div>
+            <div class="collection-card" data-genres="fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780061120084-L.jpg" alt="To Kill a Mockingbird book cover">
+                <h3>To Kill a Mockingbird</h3>
+                <p class="book-author">Harper Lee</p>
+                <p>A moving story about justice, kindness, and growing up.</p>
+            </div>
+            <div class="collection-card" data-genres="fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780375842207-L.jpg" alt="The Book Thief book cover">
+                <h3>The Book Thief</h3>
+                <p class="book-author">Markus Zusak</p>
+                <p>A touching story of courage, friendship, and the power of words.</p>
+            </div>
+            <div class="collection-card" data-genres="romance,fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780147514011-L.jpg" alt="Little Women book cover">
+                <h3>Little Women</h3>
+                <p class="book-author">Louisa May Alcott</p>
+                <p>Four sisters navigate family, dreams, love, and the challenges of life.</p>
+            </div>
+            <div class="collection-card" data-genres="fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9781594631931-L.jpg" alt="The Kite Runner book cover">
+                <h3>The Kite Runner</h3>
+                <p class="book-author">Khaled Hosseini</p>
+                <p>A heartfelt novel about friendship, guilt, forgiveness, and redemption.</p>
+            </div>
+            <div class="collection-card" data-genres="fantasy,fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780547928227-L.jpg" alt="The Hobbit book cover">
+                <h3>The Hobbit</h3>
+                <p class="book-author">J.R.R. Tolkien</p>
+                <p>An adventurous fantasy journey filled with courage and unexpected friendships.</p>
+            </div>
+            <div class="collection-card" data-genres="romance,fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780141441146-L.jpg" alt="Jane Eyre book cover">
+                <h3>Jane Eyre</h3>
+                <p class="book-author">Charlotte Brontë</p>
+                <p>A classic tale of independence, love, and personal strength.</p>
+            </div>
+            <div class="collection-card" data-genres="mystery,fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9781250301697-L.jpg" alt="The Silent Patient book cover">
+                <h3>The Silent Patient</h3>
+                <p class="book-author">Alex Michaelides</p>
+                <p>A gripping psychological thriller filled with mystery and unexpected twists.</p>
+            </div>
+            <div class="collection-card" data-genres="science">
+                <img src="https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg" alt="Atomic Habits book cover">
+                <h3>Atomic Habits</h3>
+                <p class="book-author">James Clear</p>
+                <p>A practical guide to building good habits and making small improvements.</p>
+            </div>
+            <div class="collection-card" data-genres="biography">
+                <img src="https://covers.openlibrary.org/b/isbn/9780553296983-L.jpg" alt="The Diary of a Young Girl book cover">
+                <h3>The Diary of a Young Girl</h3>
+                <p class="book-author">Anne Frank</p>
+                <p>The moving diary of a young girl during the Second World War.</p>
+            </div>
+            <div class="collection-card" data-genres="romance,fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780525478812-L.jpg" alt="The Fault in Our Stars book cover">
+                <h3>The Fault in Our Stars</h3>
+                <p class="book-author">John Green</p>
+                <p>A touching story about love, hope, and finding meaning in life.</p>
+            </div>
+            <div class="collection-card" data-genres="fantasy,fiction">
+                <img src="https://covers.openlibrary.org/b/isbn/9780590353427-L.jpg" alt="Harry Potter and the Philosopher's Stone book cover">
+                <h3>Harry Potter and the Philosopher's Stone</h3>
+                <p class="book-author">J.K. Rowling</p>
+                <p>A magical adventure about friendship, bravery, and discovering a hidden world.</p>
+            </div>
+        </div>
+    </section>
+    <section class="quote">
+        <p>"So many books, so little time."</p>
+        <span>— Frank Zappa</span>
+    </section>
+    <footer>
+        <h2><i class="fa fa-book-open"></i> Book Haven</h2>
+        <p>A place where every story finds a reader.</p>
+        <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest"></i>
+        </div>
+        <p class="copyright">&copy; 2026 Book Haven. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
